@@ -1,0 +1,9 @@
+@use "../../assets/variables" as *;
+
+.progress-wheel {
+  height: 250px;
+  width: 250px;
+  border: 2px solid $base-color;
+  border-radius: 50%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}

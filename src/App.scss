@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  font-family: sans-serif;
+  color: #2f3640;
+  padding: 20px 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+
+  justify-items: center;
+  align-items: center;
+
+  &__title {
+    grid-column: 1 / -1;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+}
